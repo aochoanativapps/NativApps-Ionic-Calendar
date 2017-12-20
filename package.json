@@ -21,6 +21,10 @@
         "copy_static_files_prod": "cp -r package.json README.md LICENSE tsconfig.json aot/",
         "dev": "tsc --watch"
     },
+    "files": [
+        "dist/*",
+        "*.js"
+    ],
     "main": "./index.js",
     "dependencies": {},
     "devDependencies": {
